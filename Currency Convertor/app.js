@@ -1,5 +1,6 @@
 const BASE_URL =
-  "https://cdn.jsdelivr.net/npm/@fawazahmed0/currency-api@latest/v1/currencies";
+  "https://v6.exchangerate-api.com/v6/155563dd3d59538de01f182a/latest/";// API's base url with api key
+
 const dropdowns = document.querySelectorAll(".dropdown select");
 console.log(dropdowns);
 const btn = document.querySelector("form button");
@@ -44,14 +45,16 @@ btn.addEventListener("click", async (event) => {
   }
   
   
-  const url=`${BASE_URL}/${fromCurr.value.toLowerCase()}.min.json`;
+  const url=`${BASE_URL}${fromCurr.value}`; //custom api call according to fromCurr value
 
-  let response=await fetch(url);
-  let data=await response.json();
+  let response=await fetch(url);// fetching api
+  let data=await response.json();// getting api response
 
-  let from=fromCurr.value.toLowerCase();
-  let to=toCurr.value.toLowerCase();
-   let rate=data[from][to];
+  let from=fromCurr.value;
+  let to=toCurr.value;
+   let rate = data["conversion_rates"][to];
+   console.log(rate);
+   
    let finalAmt= amtValue*rate;
    msg.innerText=`${amtValue} ${fromCurr.value} = ${finalAmt} ${toCurr.value}`;
   
