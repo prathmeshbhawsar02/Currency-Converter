@@ -1,7 +1,7 @@
 # Currency-Converter
 Currency Converter is a sleek and responsive web application that allows users to convert currencies in real-time using live exchange rates. It features intuitive dropdowns with country flags, a clean UI, and smooth user interaction. Built using HTML, CSS, and vanilla JavaScript, the app fetches data from an open-source currency API and updates the results instantly on form submission.
 
-Whether you’re a traveler, a forex trader, or just curious about global currencies, this app provides a fast and simple way to calculate conversion rates between over 100 currencies.
+Whether you’re a traveler, a forex trader, or just curious about global currencies, this app provides a fast and simple way to calculate conversion rates between over 150+ currencies.
 
 
 💡 How it Works
