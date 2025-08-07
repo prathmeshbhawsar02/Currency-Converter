@@ -12,3 +12,7 @@ Whether you’re a traveler, a forex trader, or just curious about global curren
 	5.	Flags are shown next to the selected currencies for better visual understanding.
 
 Everything happens instantly, right in your browser — no need to refresh or reload the page!
+
+
+
+<img width="1677" height="845" alt="Screenshot 2025-08-07 at 4 11 26 PM" src="https://github.com/user-attachments/assets/281c290d-6f3d-4fcb-aa95-4c663c982a4b" />
