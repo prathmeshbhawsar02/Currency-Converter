@@ -80,12 +80,12 @@ body {
  }
  form button{
     height: 3rem;
-    background-color: #0D1F2D;
+    background-color: #7422d8;
     color: white;
     font-size: 1rem;
     cursor: pointer;
  }
 
 form button:hover{
-   background-color: #132e45;
+   background-color: #5a15ae;
 }
